@@ -25,7 +25,7 @@ class MovieBox extends Component{
   render() {
     return (
       <div className = "movie-box">
-        <h1>UK Top Box Office</h1>
+        <h1>UK Top 10 Box Office</h1>
         <MovieList data = { this.state.data }/>
       </div>
     );
